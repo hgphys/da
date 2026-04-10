@@ -1,0 +1,8 @@
+numpy<2.0
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+requests
+jupyterlab
