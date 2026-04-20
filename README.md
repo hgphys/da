@@ -65,16 +65,27 @@ da_XX/
 
 ---
 
-## Git のインストール
-
-本教材は GitHub で配布しているため、ダウンロードには Git というツールが必要です。
-
-- Windows: [git-scm.com/download/win](https://git-scm.com/download/win) からインストーラーを取得し、オプションはすべて既定のまま進めてください。インストール後、「Git Bash」を起動して `git --version` が表示されれば完了です。
-- macOS: ターミナル.app で `xcode-select --install` を実行してください。ダイアログが出たら「インストール」を押します。すでに入っている場合は `already installed` と表示されるので、そのまま進んで構いません。`git --version` でバージョンが出れば完了です。
-
----
-
 ## 教材の取得
+
+教材は以下のいずれかの方法で取得できます。Git が未インストールでも、方法A の ZIP ダウンロードで取得できます。
+
+### 方法A: ZIP ファイルをダウンロードする（Git 不要）
+
+1. 教材リポジトリ <https://github.com/hgphys/da> を開きます
+2. 緑色の `Code` ボタンをクリックし、メニューから `Download ZIP` を選択します
+3. ダウンロードされた `da-main.zip` を展開（解凍）します
+4. 展開されたフォルダの名前を `da-main` から `da` に変更します
+5. 展開した `da` フォルダを、自分で決めた階層へ配置します
+
+Anaconda Prompt（Windows）または ターミナル.app（macOS）を起動し、`da` フォルダへ移動します。配置場所が Anaconda Prompt の起動直後の位置であれば、以下のコマンドで移動できます。
+
+```bash
+cd da
+```
+
+### 方法B: Git でクローンする（Git がインストール済みの場合のみ）
+
+Anaconda Prompt（Windows）または ターミナル.app（macOS）を起動し、教材を置きたい階層（自分で決めた場所）に移動してから、以下のコマンドを実行します。
 
 ```bash
 git clone https://github.com/hgphys/da.git
