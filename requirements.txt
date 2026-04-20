@@ -6,3 +6,13 @@ scipy
 scikit-learn
 requests
 jupyterlab
+
+# japanize-matplotlib は意図的にコメントアウトしています。
+# 第1回授業で「matplotlib の図に日本語を入れると豆腐文字（□□□）になる」
+# トラブルを学生に体験してもらい、`!pip install japanize-matplotlib` と
+# `import japanize_matplotlib` で解決する流れを授業内で実演するためです。
+# 「ネット記事のコードを写したらモジュールが足りなくてエラー」という
+# 定番トラブルの疑似体験を兼ねています。
+# 第2回以降の要点まとめデモでは notebook 冒頭で
+# `import japanize_matplotlib` を読み込む前提で進めます。
+# japanize-matplotlib
